@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="52.13.2.159" id="61868e5c-4f60-4686-9d90-00f82ededc55" keyPath="$PROJECT_DIR$/../../Key/L_H_Duet_Strings.pem" port="22" nameFormat="DESCRIPTIVE" username="ubuntu" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>
