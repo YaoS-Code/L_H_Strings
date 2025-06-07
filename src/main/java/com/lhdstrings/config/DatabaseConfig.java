@@ -20,6 +20,9 @@ public class DatabaseConfig {
         }
         Properties properties = new Properties();
         try (InputStream input = DatabaseConfig.class.getClassLoader().getResourceAsStream("application.properties")) {
+            if (input == null) {
+                throw new RuntimeException("application.properties not found in classpath");
+            }
             properties.load(input);
 
             HikariConfig config = new HikariConfig();
